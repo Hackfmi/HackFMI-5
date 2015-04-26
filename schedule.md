@@ -15,11 +15,12 @@ Total hours of presenting: 2.9
 * Memory Leekers - (5/6)
 * Petrol - (5/6)
 * СистемЙокЕксепшън - (3/6)
-* 101-v3 - (6/6)
+* NaKogoE.com - (2, 6)
 
 
 ## Group 2
 
+* 101-v3 - (6/6)
 * Rumorboys - (3/6)
 * SmartBet - (2/6)
 * Raiders of the Lost File - (4/6)
@@ -29,11 +30,11 @@ Total hours of presenting: 2.9
 * A* - (4/6)
 * Go Ahead - (3/6)
 * SwAG - (2/6)
-* Paper jam - (6/6)
 
 
 ## Group 3
 
+* Paper jam - (6/6)
 * VR Пичуе - (2/6)
 * MATE (MАthematical TЕrminal) - (2/6)
 * We Love C++ - (5/6)
