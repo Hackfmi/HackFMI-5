@@ -29,14 +29,16 @@ def to_groups(seq, group_sizes):
     return groups
 
 
-def print_stats(teams):
+def get_stats(teams):
     teams_count = len(teams)
     total_minutes = teams_count * 6
     total_hours = total_minutes / 60
-
-    print("Total number of teams: {}".format(teams_count))
-    print("Total minutes of presenting: {}".format(total_minutes))
-    print("Total hours of presenting: {}".format(total_hours))
+    
+    stats = {"teams_count": teams_count,
+             "total_minutes": total_minutes,
+             "total_hours": total_hours}
+    
+    return stats
 
 
 teams = open("teams").read().split("\n")
@@ -46,14 +48,20 @@ random.shuffle(teams)
 
 groups = to_groups(teams, GROUP_SIZES)
 
-print_stats(teams)
+stats = get_stats(teams)
 
 result = []
 
-for key in groups:
-    result.append("## " + key)
-    result.append("\n".join(list(map(lambda x: "* " + x, groups[key]))))
+result.append("Total number of teams: {}\n".format(stats["teams_count"]))
+result.append("Total minutes of presenting: {}\n".format(stats["total_minutes"]))
+result.append("Total hours of presenting: {}\n".format(stats["total_hours"]))
 
+groups_order = sorted(groups.keys())
+
+for key in groups_order:
+    result.append("## " + key)
+    result.append("\n" + "\n".join(list(map(lambda x: "* " + x, groups[key]))))
+    result.append("\n")
 handler = open("schedule.md", "w")
 handler.write("\n".join(result))
 handler.close()
