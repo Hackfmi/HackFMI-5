@@ -43,4 +43,4 @@ Total hours of presenting: 2.9
 * Bushido - (2/6)
 * Jumping Purple Unicorns - (3/6)
 * warcluster.com AI - (3/6)
-
+* null (6/6)
