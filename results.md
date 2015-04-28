@@ -2,13 +2,13 @@
 
 * Bushido - 10
 * WAI - 10
-* El Romantico - 27 - Първо място
-* NaKogoE - 13 - Трето място след tie brea
+* **El Romantico - 27 - Първо място**
+* **NaKogoE - 13 - Трето място след tie break**
 * MATE - 6
 * Замъкът на Таласъмите - 6
 * We Love C++ - 1
 * SwAg - 3
-* A* - 13 - Второ място след tie break
+* **A* - 13 - Второ място след tie break**
 * TestBot - 7
 * MemoryLeakers - 1
 * Маняците - 2
